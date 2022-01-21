@@ -1,38 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .form {
+  padding: 2%;
+  text-align: center;
+  width: 30%;
+  box-shadow: 1px 2px 2px #f3f3f3;
+  border: 1px solid;
+  border-radius: 6px;
+  margin: 60px auto;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input {
+  width: 80%;
+  margin: 10px;
+  height: 30px;
+  font-size: large;
+  padding: 3px 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.patientsList {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.patientDetail {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  border: 1px solid;
+  border-radius: 3px;
+  width: 400px;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  width: 80%;
+  margin: 10px;
+  height: 30px;
+  font-size: large;
+  padding: 3px 10px;
+}
+.singlePatient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.doctorList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.doctorDetails {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px;
+  display: inline-block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.form {
+  background-color: darkgray;
+  padding: 8%;
+  text-align: center;
+  width: 35%;
+  box-shadow: 1px 2px 2px #f3f3f3;
+  /* border: 2px solid; */
+  border-radius: 6px;
+  margin: 60px auto;
+}
+
+.input {
+  width: 80%;
+  margin: 10px;
+  height: 30px;
+  font-size: large;
+  padding: 3px 10px;
+}
+.patientsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.patientDetail {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  border: 1px solid;
+  border-radius: 3px;
+  width: 400px;
+  margin: 10px;
+}
+
+.btn {
+  width: 35%;
+  margin: 10px;
+  height: 60px;
+  font-size: large;
+  padding: 3px 10px;
+}
+
+.singlePatient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctorList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.doctorDetails {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px;
+  /* display: inline-block; */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
