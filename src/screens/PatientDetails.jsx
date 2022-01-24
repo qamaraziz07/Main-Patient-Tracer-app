@@ -46,7 +46,7 @@ const PatientDetails = () => {
             <p>
               Date of Registration: <b> {ele.date}</b>
             </p>
-           
+            <img className="center" src={ele.imageUrl} alt="file" width={200} />
           </div>
         );
       })}

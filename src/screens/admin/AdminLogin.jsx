@@ -39,7 +39,7 @@ const AdminLogin = () => {
         />
         <Input
           type="password"
-          placeholder="Password"
+          placeholder="Password "
           required={true}
           value={admin.password}
           onChange={(value) => {
@@ -49,7 +49,7 @@ const AdminLogin = () => {
             }));
           }}
         />
-        <Button title="Login" />
+        <Button  type="submit" title="Login" />
       </form>
     </div>
   );

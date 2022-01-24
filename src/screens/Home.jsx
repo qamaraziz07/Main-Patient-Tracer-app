@@ -16,7 +16,7 @@ const Home = () => {
       <Button
         title="ADMIN "
         onClick={() => {
-          navigate("/admin");
+          navigate("/adminLogin");
         }}
         />
       

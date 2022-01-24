@@ -14,13 +14,14 @@ import CreatePatient from "../screens/patient/CreatePatient";
 import DoctorPatients from "../screens/doctor/DoctorPatients";
 import DoctorList from "../screens/doctor/DoctorList";
 
+
+
 const MainRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-
       <Route path="/patientLogin" element={<Login />} />
-      <Route path="/admin" element={<AdminLogin />} />
+      <Route path="/adminLogin" element={<AdminLogin />} />
       <Route path="/adminDashboard" element={<AdminDashboard />} />
       <Route path="/createDoctor" element={<CreateDoctor />} />
       <Route path="/doctorLogin" element={<DoctorLogin />} />
